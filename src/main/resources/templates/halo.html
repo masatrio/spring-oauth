@@ -5,6 +5,9 @@
 <title>Spring oauth</title>
 </head>
 <body>
+	<form th:action="@{logout}" method="POST">
+		<input type="submit" value="Logout" />
+	</form>
 	<h1><span th:text="${pesan}"></span></h1>
 	<h2><span th:text="${waktu}">time</span></h2>
 </body>
