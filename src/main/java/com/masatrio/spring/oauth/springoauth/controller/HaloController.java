@@ -19,5 +19,9 @@ public class HaloController {
 			m.addAttribute("pesan", "Halo, Aji");
 		}
 	}
+	@RequestMapping("/")
+    public String home() {
+        return "Hello Docker World";
+    }
 
 }
